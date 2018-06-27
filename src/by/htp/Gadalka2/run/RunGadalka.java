@@ -1,6 +1,7 @@
 package by.htp.Gadalka2.run;
 
 import java.util.GregorianCalendar;
+import java.util.LinkedList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,6 +28,8 @@ public class RunGadalka {
 		GregorianCalendar gregorianCalendar= new GregorianCalendar();
 		
 		String testDivination=ft.getDivinationByPredication("marryList", nadya, gregorianCalendar);
+//		String testDivination2=ft.getDivinationByPredication("yearsToLiveList", misha, gregorianCalendar);
+		
 		
 		System.out.println(testDivination);
 	}

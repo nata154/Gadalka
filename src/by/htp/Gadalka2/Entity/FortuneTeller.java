@@ -25,11 +25,10 @@ public class FortuneTeller{
 	divinations.put("marry", marryList);
 	
 	Queue<String> yearsToLiveList= new LinkedList<>();
-	yearsToLiveList.add("Once");
-	yearsToLiveList.add("Twice");
-	yearsToLiveList.add("Three times");
-	yearsToLiveList.add("Never");
-	divinations.put("marry", marryList);
+	yearsToLiveList.add("0-10");
+	yearsToLiveList.add("10-20");
+	yearsToLiveList.add("20-30");
+	divinations.put("yearsToLive", yearsToLiveList);
 }
 
 public GregorianCalendar getGregorianCalendar() {
